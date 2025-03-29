@@ -24,7 +24,7 @@ steps:
     args: 
       - 'build'
       - '-t'
-      us-central1-docker.pkg.dev/upgradlabs-1740997924240/iamcodingbaba007/myapp:$BUILD_ID'
+      - 'us-central1-docker.pkg.dev/upgradlabs-1740997924240/iamcodingbaba007/myapp:$BUILD_ID'
       - '.'
   # Step 4: Push Docker image to Artifact Registry
   - name: 'gcr.io/cloud-builders/docker'
